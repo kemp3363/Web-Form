@@ -1,5 +1,5 @@
 
-@media all and (max-width: 1600px) {
+@media all and (max-width: 1600px), (max-height: 1200px) {
 
   body{
     font-family: 'Lobster', cursive;
@@ -14,12 +14,11 @@
   }
 
   .info{
-    background-color: none;
-  padding: 2%;
-  border: 1px solid;
-  box-shadow: 4px 4px 12px 3px black;
-  border-left: none;
-  border-top: none;
+    padding: 2%;
+    border: 1px solid;
+    box-shadow: 4px 4px 12px 3px black;
+    border-left: none;
+    border-top: none;
   }
 
   .container{
@@ -41,6 +40,11 @@
   .center{
     text-align: center;
     height: 90%;
+  }
+
+  .citation{
+    text-align: center;
+    opacity: .5;
   }
 
 }
