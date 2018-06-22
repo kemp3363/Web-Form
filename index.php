@@ -1,1 +1,1 @@
-<?php header( 'Location: /web_form.html' ) ;  ?>
+<?php header( 'Location: /index.html' ) ;  ?>
